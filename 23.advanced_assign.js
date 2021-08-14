@@ -26,3 +26,12 @@ const { title, height: h, ...rest } = options;
 console.log(title);
 console.log(h);
 console.log(rest);
+console.log("-----");
+
+function sample({ width, height, ...rest }) {
+  console.log(width * height);
+  console.log(rest);
+  return width * height;
+}
+
+sample(options);

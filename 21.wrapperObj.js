@@ -9,3 +9,5 @@ console.log(Boolean(1)); // true
 
 console.log(Boolean(num1)); // false
 console.log(Boolean(num2)); // true
+
+num1.toString()
